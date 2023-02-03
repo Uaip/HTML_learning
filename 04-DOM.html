@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+
+<div class="cls">111111</div><br>
+<div class="cls">222222</div><br>
+
+<input type="checkbox" name="hobby"> 电影
+<input type="checkbox" name="hobby"> 游戏
+<input type="checkbox" name="hobby"> 音乐
+<br>
+
+<script>
+  let byTagName = document.getElementsByTagName("input");
+  alert(byTagName);
+  for(let i = 0;i < byTagName.length;i++)
+    alert(byTagName[i]);
+</script>
+
+</body>
+</html>
